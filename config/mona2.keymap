@@ -64,10 +64,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp L             &kp U        &mt AT COMMA   &mt QUESTION PERIOD                                                                    &kp F      &kp W  &kp R  &kp Y  &kp P
-&kp E           &kp I             &mt LC(A) A  &kp O          &mt EQUAL MINUS                                &mt RIGHT_BRACKET LEFT_BRACKET          &kp K      &kp T  &kp N  &kp S  &kp H
-&mt LC(Z) Z     &mt LC(X) X       &mt LC(C) C  &mt LC(V) V    &mt SEMICOLON COLON  &kp UP_ARROW              &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp G      &kp D  &kp M  &kp J  &kp B
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB      &kp BACKSPACE  &kt SPACE            &lt_to_layer_0 2 LANG2    &lt_to_layer_0 1 LANG1                  &kt ENTER                       &kp RIGHT_ALT
+&kp Q           &kp L             &kp U        &mt AT COMMA   &mt QUESTION PERIOD                                                                    &mt LC(F) F  &kp W  &kp R  &kp Y  &kp P
+&kp E           &kp I             &mt LC(A) A  &kp O          &mt EQUAL MINUS                                &mt RIGHT_BRACKET LEFT_BRACKET          &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LC(Z) Z     &mt LC(X) X       &mt LC(C) C  &mt LC(V) V    &mt SEMICOLON COLON  &kp UP_ARROW              &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp G        &kp D  &kp M  &kp J  &kp B
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB      &kp BACKSPACE  &kt SPACE            &lt_to_layer_0 2 LANG2    &lt_to_layer_0 1 LANG1                  &kt ENTER                         &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
